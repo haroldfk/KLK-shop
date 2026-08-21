@@ -1,0 +1,25 @@
+
+> klk-shop@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.5.0.2:3000
+- Environments: .env
+✓ Ready in 1421ms
+✓ Running next.config.ts took 134ms
+
+○ Compiling /admin/orders ...
+ GET /admin/orders 200 in 8.8s (next.js: 7.7s, proxy.ts: 351ms, application-code: 809ms)
+ GET /products 200 in 2.0s (next.js: 1805ms, application-code: 234ms)
+ GET /products?category=bijoux 200 in 109ms (next.js: 8ms, application-code: 101ms)
+ GET /products?category=parfums 200 in 81ms (next.js: 4ms, application-code: 77ms)
+ GET /products?category=bijoux 200 in 79ms (next.js: 5ms, application-code: 74ms)
+ GET /products?category=parfums 200 in 87ms (next.js: 7ms, application-code: 80ms)
+○ Compiling / ...
+ GET / 200 in 5.9s (next.js: 5.5s, application-code: 376ms)
+[browser] Image with src "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1000&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET /products 200 in 219ms (next.js: 44ms, application-code: 175ms)
+ GET /products?category=maillots 200 in 126ms (next.js: 19ms, application-code: 107ms)
+ GET /products?category=montres-luxe 200 in 89ms (next.js: 17ms, application-code: 73ms)
+ GET /products?category=montres-personnalisables 200 in 118ms (next.js: 38ms, application-code: 79ms)
