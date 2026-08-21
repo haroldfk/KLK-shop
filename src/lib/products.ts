@@ -1,6 +1,6 @@
 import "server-only";
 import { prisma } from "@/lib/prisma";
-import type { Product as DbProduct } from "@/generated/prisma/models";
+import type { ProductModel as DbProduct } from "@/generated/prisma/models";
 import type { Category, Product } from "@/lib/product-types";
 
 export type { Category, Product } from "@/lib/product-types";

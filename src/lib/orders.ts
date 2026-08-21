@@ -1,6 +1,6 @@
 import "server-only";
 import { prisma } from "@/lib/prisma";
-import type { Order as DbOrder } from "@/generated/prisma/models";
+import type { OrderModel as DbOrder } from "@/generated/prisma/models";
 import type { CartItem } from "@/lib/cart-types";
 
 export type Order = {

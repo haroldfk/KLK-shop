@@ -1,35 +1,9 @@
 
-> klk-shop@0.1.0 dev
-> next dev
+> klk-shop@0.1.0 start
+> next start
 
-▲ Next.js 16.3.2 (Turbopack)
+▲ Next.js 16.3.2
 - Local:         http://localhost:3000
 - Network:       http://10.5.0.2:3000
-- Environments: .env
-✓ Ready in 1320ms
-✓ Running next.config.ts took 183ms
-
-○ Compiling / ...
-(node:22400) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
-In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
-
-To prepare for this change:
-- If you want the current behavior, explicitly use 'sslmode=verify-full'
-- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
-
-See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
-(Use `node --trace-warnings ...` to show where the warning was created)
- GET / 200 in 7.3s (next.js: 6.1s, application-code: 1145ms)
- GET /products 200 in 1258ms (next.js: 958ms, application-code: 300ms)
-(node:18484) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
-In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
-
-To prepare for this change:
-- If you want the current behavior, explicitly use 'sslmode=verify-full'
-- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
-
-See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
-(Use `node --trace-warnings ...` to show where the warning was created)
- GET /products/maillot-psg-domicile 200 in 3.9s (next.js: 1210ms, generate-params: 2.4s, application-code: 256ms)
- GET /products 200 in 377ms (next.js: 90ms, application-code: 287ms)
- GET /products 200 in 66ms (next.js: 5ms, application-code: 61ms)
+✓ Ready in 847ms
+✓ Running next.config.ts took 177ms
